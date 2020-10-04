@@ -1,17 +1,18 @@
 .display {
-  width: 300px;
-  margin: 1em auto;
+  width: 250px;
+  margin: .5em auto;
   text-align: center;
-  padding: 20px;
+  padding: 24px;
   background-color: white;
   &__h1 {
     font-family: 'Spartan', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #bb5432;
-  }&__h3 {
+  }
+  &__h3 {
     font-family: 'Spartan', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: lighter;
     color: #bb5432;
   }
