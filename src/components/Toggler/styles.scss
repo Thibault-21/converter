@@ -1,0 +1,20 @@
+.toggle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: -25px auto;
+  display: block;
+  position: relative;
+  color: #bb5432;
+  border-color: #bb5432;
+  background-color: white;
+  font-weight:bold;
+  font-size: 2rem;
+  transition: background #f1c5b6;
+  &:hover {
+    background-color: #f1c5b6;
+  }
+  &__is-open {
+    transform: rotate(90deg);
+  }
+}
