@@ -5,17 +5,17 @@
   margin: 1em auto;
   text-align: center;
   padding: 10px;
-  height: 420px;
+  height: 380px;
   &__title {
     color: #bb5432;
-    text-align: left;
+    text-align: center;
     margin: 5px;
     font-weight: bold;
     font-size: 20px;
   }
   &__liste {
     // padding: 5px;
-    height: 350px;
+    height: 300px;
     overflow-y: scroll;
   }
   &__item {
@@ -27,6 +27,9 @@
     cursor: pointer;
     font-family: 'Spartan', sans-serif;
     transition: background 1;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 12px;
   }
   &__item:hover {
     background-color: #f1c5b6; 
